@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- White circle background -->
+  <circle cx="100" cy="100" r="100" fill="#ffffff"/>
+  
+  <!-- NC text and swoosh -->
+  <g transform="translate(100, 100)">
+    <!-- N letter -->
+    <path d="M -40 -25 L -40 25 M -40 -25 L 0 25 L 0 -25" stroke="#1a1a1a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- C letter -->
+    <path d="M 40 -25 L 15 -25 Q 5 -25 5 0 Q 5 25 15 25 L 40 25" stroke="#1a1a1a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Curved swoosh underneath -->
+    <path d="M -45 40 Q 0 55 45 40" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
